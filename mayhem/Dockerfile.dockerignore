@@ -1,0 +1,11 @@
+# Keep the full repo (incl. .git) in the build context; drop local build outputs and cruft.
+build*/
+!buildSrc/
+out/
+*.o
+*.a
+*.so
+**/__pycache__/
+.DS_Store
+*.swp
+*~

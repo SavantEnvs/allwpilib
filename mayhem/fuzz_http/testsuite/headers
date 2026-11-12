@@ -1,0 +1,9 @@
+Content-Type: multipart/x-mixed-replace; boundary=boundary
+Content-Length: 42
+X-Other: y
+
+--boundary
+Content-Type: image/jpeg
+
+JPEGDATA
+--boundary--

@@ -1,0 +1,1 @@
+[{"method": "properties", "params": {"name": "/bar", "update": {"retained": true}, "ack": true}}]

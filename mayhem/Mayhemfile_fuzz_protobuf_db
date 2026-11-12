@@ -1,0 +1,9 @@
+project: savantenvs/allwpilib
+target: fuzz_protobuf_db
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_protobuf_db/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_protobuf_db
+    libfuzzer: true
+    timeout: 10
